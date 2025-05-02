@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Score Analyzer</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <h1>Score Analyzer</h1>
+  <p class="sub">▼ Click Me</p>
+  <p>Enter your grades in the following subjects.</p>
+
+  <div class="subject-container">
+    <div class="subject">
+      <img src="science.png" alt="Science" />
+      <input type="number" id="science" placeholder="Science Grade" />
+    </div>
+    <div class="subject">
+      <img src="math.png" alt="Math" />
+      <input type="number" id="math" placeholder="Math Grade" />
+    </div>
+    <div class="subject">
+      <img src="english.png" alt="English" />
+      <input type="number" id="english" placeholder="English Grade" />
+    </div>
+  </div>
+
+  <button onclick="calculateAverage()">Get Rating</button>
+  <p class="note">Note: Grading Criteria and Equivalents can vary depending on school or district.</p>
+  <footer>@Nickel L. Andoy</footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
