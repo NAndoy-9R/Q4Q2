@@ -3,7 +3,7 @@ function calculateAverage() {
   const math = parseFloat(document.getElementById("math").value);
   const english = parseFloat(document.getElementById("english").value);
 
-  if (isNaN(science) || isNaN(math) || isNaN(english)) {
+  if (science) || (math) || (english)) {
     alert("Please enter all three grades.");
     return;
   }
